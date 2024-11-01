@@ -1,0 +1,90 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  color: #ffffff;
+  background-color: #0f1923; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff4655; 
+  margin-top: 20px;
+}
+
+
+#searchInput {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #ff4655;
+  border-radius: 5px;
+  background-color: #1b2733;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+#searchInput::placeholder {
+  color: #7f8c8d;
+}
+
+
+#agentsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.agent {
+  background-color: #1b2733; 
+  border: 2px solid #ff4655;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.agent:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 70, 85, 0.4);
+}
+
+.agent img {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #ff4655;
+}
+
+.agent h2 {
+  font-size: 1.5em;
+  margin-top: 15px;
+  color: #ff4655;
+}
+
+.agent p {
+  font-weight: bold;
+  color: #bdc3c7;
+}
+
+
+.agent ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.agent ul li {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #ff4655;
+  border-radius: 5px;
+  color: #1b2733;
+  font-weight: bold;
+}
